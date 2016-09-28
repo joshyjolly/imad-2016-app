@@ -11,7 +11,7 @@ app.get('/counter',function (req,res){
 });
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+  res.sendFile(path.join(__dirname, 'ui', 'maddi.png'));
 });
 
 app.get('/ui/style.css', function (req, res) {
