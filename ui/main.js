@@ -3,4 +3,5 @@ var button=document.getElementById("b");
 button.onclick=function count()
 {
     counter++;
+document.write(counter);
 }
