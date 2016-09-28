@@ -1,9 +1,12 @@
 body {
-    font-family: algerian;
+    
     background-color: lightgrey;
     margin-top: 75px;
 }
-
+.container
+{
+    font-family: algerian;
+}
 .center {
     text-align: center;
 }
