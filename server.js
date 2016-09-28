@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 var counter=0;
 app.get('/counter',function (req,res){
     counter=counter+1;
-    res.send(counter.toString());
+    res.send(counter);
 });
 
 app.get('/', function (req, res) {
