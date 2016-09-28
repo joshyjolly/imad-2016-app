@@ -10,7 +10,7 @@ app.get('/counter',function (req,res){
     res.send(counter.toString());
 });
 
-app.get('/home', function (req, res) {
+app.get('', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
