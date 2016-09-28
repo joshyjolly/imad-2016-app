@@ -1,6 +1,6 @@
 var b=0;
 var button=document.getElementById('b');
-button.onclick = function f()
+button.onclick = function()
 {
     b=b+1;
     var span=document.getElementById('s');
