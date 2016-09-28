@@ -6,12 +6,12 @@ var app = express();
 app.use(morgan('combined'));
 var counter=0;
 app.get('/counter',function (req,res){
-    counter=counter+3;
+    counter++;
     res.send(counter.toString());
 });
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
 app.get('/ui/style.css', function (req, res) {
