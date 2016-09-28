@@ -5,5 +5,5 @@ button.onclick = function ()
 {
     bt=bt+1;
     var span=document.getElementById('st');
-   span.innerHTML=bt.toString();
+   span.innerHTML=bt;
 };
