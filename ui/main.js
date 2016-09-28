@@ -1,6 +1,5 @@
 
-var button=document.getElementById('bt');
-var bt=0;
+var button=document.getElementById('counter');
 button.onclick = function ()
 {
     var request = new XMLHttpRequest();
@@ -9,7 +8,7 @@ button.onclick = function ()
         if (request.status===200){
             var counter=request.responseText;
     var span=document.getElementById('st');
-   span.innerHTML= bt.toString();
+   span.innerHTML= counter.toString();
         }
     }
     };
