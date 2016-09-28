@@ -1,5 +1,5 @@
 var b=0;
-alert();
+alert("tfyf");
 var button=document.getElementById('b');
 button.onclick=function()
 {
