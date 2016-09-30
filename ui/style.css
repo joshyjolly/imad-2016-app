@@ -24,6 +24,9 @@ body {
     height: 200px;
 }
 .content{
+     border-width:2px;
+    border-style:solid;
+    border-color:blue;
     font-family: arial black;
     font-size:100;
     margin-left:200px;
@@ -31,9 +34,6 @@ body {
     
 }
 .jo{
-    border-width:200px;
-    border-style:solid;
-    border-color:blue;
     font-family: courier new bold;
     font-size:200;
     margin-left:500px;
