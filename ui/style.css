@@ -22,4 +22,11 @@ body {
 .img-medium {
     height: 200px;
 }
+.content{
+    font-family: arial black;
+    font-size:100;
+    margin-left:50px;
+    
+}
+
 
