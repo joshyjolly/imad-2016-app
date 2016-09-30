@@ -13,7 +13,9 @@ app.get('/counter',function (req,res){
 app.get('', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
+app.get('www.google.co.in', function (req,res){
+    res.sendFile(path.join(__dirname, 'www.google.co.in'));
+});
 app.get('/Myself.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'Myself.html'));
 });
