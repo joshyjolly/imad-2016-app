@@ -12,6 +12,6 @@ button.onclick = function ()
         }
     }
     };
-    request.open('GET','http://joshyjolly.imad.hasura-app.io/counter',true);
+    request.open('GET','http://joshyjolly.imad.hasura-app.io/conter',true);
     request.send(null);
 };
