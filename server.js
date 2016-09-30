@@ -13,7 +13,7 @@ app.get('/counter',function (req,res){
 app.get('', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('google.co.in', function (req,res){
+app.get('/google.co.in', function (req,res){
     res.send("Can't get u anything");
 });
 app.get('/Myself.html', function (req, res) {
