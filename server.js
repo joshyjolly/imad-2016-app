@@ -14,7 +14,7 @@ app.get('', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('www.google.co.in', function (req,res){
-    res.sendFile(path('www.google.co.in'));
+    res.send("Can't get u anything");
 });
 app.get('/Myself.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'Myself.html'));
