@@ -6,6 +6,7 @@ body {
 .container
 {
     font-family: algerian;
+    text-align:center;
 }
 .center {
     text-align: center;
@@ -31,7 +32,7 @@ body {
 .jo{
     font-family: courier new bold;
     font-size:100;
-    margin-left:150px;
+    margin-left:300px;
 }
 
 
