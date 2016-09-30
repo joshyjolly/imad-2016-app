@@ -7,8 +7,8 @@ button.onclick = function ()
     if(request.readystate===XMLHttpRequest.DONE){
         if (request.status===200){
             var counter=request.responseText;
-    var span=document.getElementById('count');
-   innerHTML.span= counter.toString();
+    var span=document.getElementById('count').innerHTML;
+   span.innerHTML= counter.toString();
         }
     }
     };
