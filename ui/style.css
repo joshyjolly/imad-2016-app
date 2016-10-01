@@ -75,7 +75,6 @@ body {
     border: none;
     font-size: 28px;
     color: #FFFFFF;
-    padding: 20px;
     width: 200px;
     text-align: center;
     transition-duration: 0.4s;
@@ -86,7 +85,7 @@ body {
 .button:after {
     content: "";
     background: #90EE90;
-    display: inline;
+    display: list-item;
     position: absolute;
     padding-top: 300%;
     padding-left: 350%;
