@@ -81,7 +81,7 @@ body {
     cursor: pointer;
 }
 
-.button:after {
+.butto:after {
     content: "";
     background: #90EE90;
     display: list-item;
@@ -94,7 +94,7 @@ body {
     transition: all 0.8s
 }
 
-.button:active:after {
+.butto:active:after {
     padding: 0;
     margin: 0;
     opacity: 1;
