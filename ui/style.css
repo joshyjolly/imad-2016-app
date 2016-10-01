@@ -46,8 +46,7 @@ body {
     width: 200px;
     text-align: center;
     transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
+    text--flow: hidden;
     cursor: pointer;
 }
 
@@ -59,6 +58,39 @@ body {
     padding-top: 300%;
     padding-left: 350%;
     margin-left: -20px;
+    margin-top: -120%;
+    opacity: 30;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.butto{
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 50px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text--flow: hidden;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: #90EE90;
+    display: inline;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -40px;
     margin-top: -120%;
     opacity: 30;
     transition: all 0.8s
