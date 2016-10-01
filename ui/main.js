@@ -1,6 +1,5 @@
 
-var button=document.getElementById('counter');
-button.onclick = function ()
+ function f()
 {
     var request = new XMLHttpRequest();
     request.onreadystatechange=function(){
@@ -13,4 +12,4 @@ button.onclick = function ()
     };
     request.open('GET','http://joshyjolly.imad.hasura-app.io/conter',true);
     request.send(null);
-};
+}
