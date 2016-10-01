@@ -60,7 +60,7 @@ body {
     padding-left: 350%;
     margin-left: -20px;
     margin-top: -120%;
-    opacity: 0;
+    opacity: 30;
     transition: all 0.8s
 }
 
