@@ -68,38 +68,7 @@ body {
     opacity: 1;
     transition: 0s
 }
-.butto{
-    position: relative;
-    background-color: #4CAF50;
-    border: none;
-    font-size: 28px;
-    color: #FFFFFF;
-    width: 200px;
-    text-align: center;
-    transition-duration: 0.4s;
-    text--flow: hidden;
-    cursor: pointer;
-}
 
-.butto:after {
-    content: "";
-    background: #90EE90;
-    display: inline;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px;
-    margin-top: -120%;
-    opacity: 30;
-    transition: all 0.8s
-}
-
-.butto:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-}
 
 
 
