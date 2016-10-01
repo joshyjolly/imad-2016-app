@@ -6,7 +6,7 @@
     if(request.readystate===XMLHttpRequest.DONE){
         if (request.status===200){
             var counter=request.responseText;
-    var span=document.getElementById('count').innerHTML=counter.toString();
+    return(counter.toString());
         }
     }
     };
