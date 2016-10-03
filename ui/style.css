@@ -49,7 +49,7 @@ body {
     cursor: pointer;
 }
 
-/*.button:after {
+.button:after {
     content: "";
     background: #00EE44;
     display: inline;
@@ -60,7 +60,7 @@ body {
     margin-top: -120%;
     opacity: 30;
     transition: all 0.8s
-}*/
+}
 
 .button:active:after {
     padding: 0;
