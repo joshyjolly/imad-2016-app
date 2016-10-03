@@ -43,7 +43,7 @@ body {
     font-size: 28px;
     color: #FFFFFF;
     width: 20px;
-    padding-left:50%;
+    padding-left:5%;
     text-align: center;
     transition-duration: 2s;
     cursor: pointer;
@@ -54,7 +54,7 @@ body {
     background: #00EE44;
     display: block;
     position: absolute;
-    padding-left: 50%;
+    padding-left: 5%;
     width: 20px;
     text-align:center;
     opacity: 30;
