@@ -43,6 +43,7 @@ body {
     font-size: 28px;
     color: #FFFFFF;
     width: 20px;
+    padding-right:100%;
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;
