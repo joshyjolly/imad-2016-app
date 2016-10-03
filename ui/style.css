@@ -50,16 +50,16 @@ body {
 }
 
 .button:after {
-    content: "dvdsv";
-    background: #00EE44;
-    display: block;
-    position: absolute;
-    padding-left: 5%;
+     position: absolute;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
     width: 20px;
-    text-align:center;
-    text-flow:hidden;
-    opacity: 30;
-    transition: all 0.8s
+    padding-left:5%;
+    text-align: center;
+    transition-duration: 2s;
+    cursor: pointer;
 }
 
 .button:active:after {
