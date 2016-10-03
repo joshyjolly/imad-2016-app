@@ -45,7 +45,6 @@ body {
     width: 20px;
     text-align: center;
     transition-duration: 0.4s;
-    text--flow: hidden;
     cursor: pointer;
 }
 
