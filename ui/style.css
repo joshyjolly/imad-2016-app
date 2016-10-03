@@ -62,7 +62,7 @@ body {
 }
 
 .button:active:after {
-    padding: 0;
+    padding: 10%;
     margin: 0;
     opacity: 1;
     transition: 0s
