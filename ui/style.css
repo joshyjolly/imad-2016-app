@@ -57,6 +57,7 @@ body {
     padding-left: 5%;
     width: 20px;
     text-align:center;
+    text-flow:hidden;
     opacity: 30;
     transition: all 0.8s
 }
