@@ -12,8 +12,8 @@ app.get('/counter',function (req,res){
 app.get('', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/image.jpg', function (req,res){
-    res.sendFile(path.join(__dirname,'a52cc0fd-9347-4c81-8029-a0d0ee9cc5ea.jpg'));
+app.get('/HD-High-Tech-Background.jpg', function (req,res){
+    res.sendFile(path.join(__dirname,'HD-High-Tech-Background.jpg'));
 });
 app.get('/Myself.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'Myself.html'));
