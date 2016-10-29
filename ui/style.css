@@ -49,17 +49,17 @@ body {
 
 
 HTML, BODY {
-  height: 0%;
+  height: 100%;
     width: 100%;
 }
 
 BODY {
   background-size: 200%;
-  font: 16em/1 Arial;
+  font: 20em/1 Arial;
 }
 
 .text--line {
-  font-size: .5em;
+  font-size: 5em;
 }
 
 svg {
