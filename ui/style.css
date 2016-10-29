@@ -49,11 +49,6 @@ HTML, BODY {
   height: 100%;
 }
 
-BODY {
-  background-size: .12em 100%;
-  font: 16em/1 Arial;
-}
-
 .text--line {
   font-size: .5em;
 }
