@@ -14,8 +14,8 @@ body {
 {
     font-family: algerian;
     text-align: center;
-    margin-left:1px;
-    margin-right:1px;
+    margin-left:0.0000000000001px;
+    margin-right:0.00000000000001px;
 }
 .center {
     text-align:center;
