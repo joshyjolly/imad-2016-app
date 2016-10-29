@@ -49,6 +49,11 @@ HTML, BODY {
   height: 100%;
 }
 
+BODY {
+  
+  font: 16em/1 Arial;
+}
+
 .text--line {
   font-size: .5em;
 }
