@@ -27,6 +27,9 @@ app.get('/ui/login.html', function (req, res) {
 app.get('/ui/login.css', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui','login.css'));
 });
+app.get('/ui/login.js', function (req, res) {
+    res.sendFile(path.join(__dirname, 'ui','login.js'));
+});
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
