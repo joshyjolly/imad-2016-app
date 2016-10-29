@@ -96,7 +96,7 @@ svg {
 
 @-webkit-keyframes stroke-offset {
   50% {
-    stroke-dashoffset: 90%;
+    stroke-dashoffset: 35%;
     stroke-dasharray: 0 87.5%;
   }
 }
