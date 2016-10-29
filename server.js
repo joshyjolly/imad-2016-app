@@ -13,7 +13,7 @@ app.get('', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/HD-High-Tech-Background.jpg', function (req,res){
-    res.sendFile(path.join(__dirname,'HD-High-Tech-Background.jpg'));
+    res.sendFile(path.join(__dirname, 'HD-High-Tech-Background.jpg'));
 });
 app.get('/Myself.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'Myself.html'));
