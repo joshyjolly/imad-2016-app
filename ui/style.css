@@ -50,7 +50,7 @@ HTML, BODY {
 }
 
 BODY {
-  background-size: 20em 150%;
+  background-size: 20em 100%;
   font: 16em/1 Arial;
 }
 
@@ -109,7 +109,7 @@ svg {
 
 .compli
 {
-    margin-top:500px;
+    margin-top:800px;
 }
 
 
