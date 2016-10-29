@@ -18,7 +18,7 @@ app.get('/image.jpg', function (req,res){
 app.get('/Myself.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'Myself.html'));
 });
-app.get('/style.css', function (req, res) {
+app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui','style.cs'));
 });
 
