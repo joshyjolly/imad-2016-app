@@ -47,11 +47,11 @@ body {
 
 HTML, BODY {
   height: 200px;
-    width: 50%;
+    width: 500%;
 }
 
 BODY {
-  background-size: 20em 100%;
+  background-size: 80em 100%;
   font: 16em/1 Arial;
 }
 
