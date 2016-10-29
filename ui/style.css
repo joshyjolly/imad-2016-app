@@ -5,8 +5,9 @@ body {
 }
 .topic
 {
+    font-family:"algerian";
+    font-size:200px;
     margin-left:50px;
-}
 }
 .container
 {
