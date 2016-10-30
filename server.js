@@ -24,6 +24,9 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/create.html', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui','create.html'));
 });
+app.get('/create2.html', function (req, res) {
+    res.sendFile(path.join(__dirname, 'ui','create2.html'));
+});
 app.get('/ui/main.js', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui','main.js'));
 });
