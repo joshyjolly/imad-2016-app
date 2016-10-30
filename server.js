@@ -21,8 +21,8 @@ app.get('/Myself.html', function (req, res) {
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui','style.css'));
 });
-app.get('/ui/login.html', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui','login.html'));
+app.get('/create.html', function (req, res) {
+    res.sendFile(path.join(__dirname, 'ui','create.html'));
 });
 app.get('/ui/login.js', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui','login.js'));
